@@ -1,0 +1,569 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\shrey\Downloads\Street_Tree_List.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Street_Tree_List.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="TreeID" size="254" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_WString" />
+            <Field name="qLegalStatus" size="254" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_WString" />
+            <Field name="qSpecies" size="254" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_WString" />
+            <Field name="qAddress" size="254" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_WString" />
+            <Field name="SiteOrder" size="254" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_WString" />
+            <Field name="qSiteInfo" size="254" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_WString" />
+            <Field name="PlantType" size="254" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_WString" />
+            <Field name="qCaretaker" size="254" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_WString" />
+            <Field name="qCareAssistant" size="254" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_WString" />
+            <Field name="PlantDate" size="254" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_WString" />
+            <Field name="DBH" size="254" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_WString" />
+            <Field name="PlotSize" size="254" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_WString" />
+            <Field name="PermitNotes" size="254" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_WString" />
+            <Field name="XCoord" size="254" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_WString" />
+            <Field name="YCoord" size="254" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_WString" />
+            <Field name="Latitude" size="254" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_WString" />
+            <Field name="Longitude" size="254" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_WString" />
+            <Field name="Location" size="254" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_WString" />
+            <Field name="Fire Prevention Districts" size="254" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_WString" />
+            <Field name="Police Districts" size="254" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_WString" />
+            <Field name="Supervisor Districts" size="254" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_WString" />
+            <Field name="Zip Codes" size="254" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_WString" />
+            <Field name="Neighborhoods (old)" size="254" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="TreeID" selected="True" />
+            <SelectField field="qLegalStatus" selected="True" />
+            <SelectField field="qSpecies" selected="True" />
+            <SelectField field="qAddress" selected="True" />
+            <SelectField field="SiteOrder" selected="True" />
+            <SelectField field="qSiteInfo" selected="True" />
+            <SelectField field="PlantType" selected="True" />
+            <SelectField field="qCaretaker" selected="True" />
+            <SelectField field="qCareAssistant" selected="True" />
+            <SelectField field="PlantDate" selected="True" />
+            <SelectField field="DBH" selected="True" />
+            <SelectField field="PlotSize" selected="True" />
+            <SelectField field="PermitNotes" selected="True" />
+            <SelectField field="XCoord" selected="True" />
+            <SelectField field="YCoord" selected="True" />
+            <SelectField field="Latitude" selected="True" />
+            <SelectField field="Longitude" selected="True" />
+            <SelectField field="Location" selected="True" />
+            <SelectField field="Fire Prevention Districts" selected="True" />
+            <SelectField field="Police Districts" selected="True" />
+            <SelectField field="Supervisor Districts" selected="True" />
+            <SelectField field="Zip Codes" selected="True" />
+            <SelectField field="Neighborhoods (old)" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="342" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="TreeID" selected="True" />
+            <Field field="qLegalStatus" selected="True" />
+            <Field field="qSpecies" selected="True" />
+            <Field field="qAddress" selected="True" />
+            <Field field="SiteOrder" selected="True" />
+            <Field field="qSiteInfo" selected="True" />
+            <Field field="PlantType" selected="True" />
+            <Field field="qCaretaker" selected="True" />
+            <Field field="qCareAssistant" selected="True" />
+            <Field field="PlantDate" selected="True" />
+            <Field field="DBH" selected="True" />
+            <Field field="PlotSize" selected="True" />
+            <Field field="PermitNotes" selected="True" />
+            <Field field="XCoord" selected="True" />
+            <Field field="YCoord" selected="True" />
+            <Field field="Latitude" selected="True" />
+            <Field field="Longitude" selected="True" />
+            <Field field="Location" selected="True" />
+            <Field field="Fire Prevention Districts" selected="True" />
+            <Field field="Police Districts" selected="True" />
+            <Field field="Supervisor Districts" selected="True" />
+            <Field field="Zip Codes" selected="True" />
+            <Field field="Neighborhoods (old)" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="TreeID" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="Int32" />
+            <Field name="qLegalStatus" size="31" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="qSpecies" size="81" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="qAddress" size="40" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="SiteOrder" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="Int16" />
+            <Field name="qSiteInfo" size="33" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="PlantType" size="11" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="qCaretaker" size="23" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="qCareAssistant" size="22" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="PlantDate" size="22" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="String" />
+            <Field name="DBH" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="Int16" />
+            <Field name="PlotSize" size="23" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="PermitNotes" size="150" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="XCoord" size="18" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="YCoord" size="18" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="Latitude" size="18" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="String" />
+            <Field name="Longitude" size="19" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="String" />
+            <Field name="Location" size="41" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="String" />
+            <Field name="Fire Prevention Districts" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="Byte" />
+            <Field name="Police Districts" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="Byte" />
+            <Field name="Supervisor Districts" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="Byte" />
+            <Field name="Zip Codes" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="Int16" />
+            <Field name="Neighborhoods (old)" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="486" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\shrey\AppData\Local\Temp\Engine_34680_dba6f32b948d405c869ba6eb436019ab_\Engine_29616_09f52fe7c6ff43409031332101649515_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="438" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>qSpecies</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>species</RootName>
+          <Delimeters value=":" />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="570" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="qLegalStatus" selected="True" />
+            <Field field="qSpecies" selected="True" />
+            <Field field="qAddress" selected="True" />
+            <Field field="qSiteInfo" selected="True" />
+            <Field field="PlantType" selected="True" />
+            <Field field="qCaretaker" selected="True" />
+            <Field field="qCareAssistant" selected="True" />
+            <Field field="PlantDate" selected="True" />
+            <Field field="PlotSize" selected="True" />
+            <Field field="PermitNotes" selected="True" />
+            <Field field="XCoord" selected="True" />
+            <Field field="YCoord" selected="True" />
+            <Field field="Latitude" selected="True" />
+            <Field field="Longitude" selected="True" />
+            <Field field="Location" selected="True" />
+            <Field field="species1" selected="True" />
+            <Field field="species2" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="TreeID" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="Int32" />
+            <Field name="qLegalStatus" size="31" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="qSpecies" size="81" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="qAddress" size="40" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="SiteOrder" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="Int16" />
+            <Field name="qSiteInfo" size="33" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="PlantType" size="11" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="qCaretaker" size="23" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="qCareAssistant" size="22" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="PlantDate" size="22" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="String" />
+            <Field name="DBH" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="Int16" />
+            <Field name="PlotSize" size="23" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="PermitNotes" size="150" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="XCoord" size="18" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="YCoord" size="18" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="Latitude" size="18" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="String" />
+            <Field name="Longitude" size="19" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="String" />
+            <Field name="Location" size="41" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="String" />
+            <Field name="Fire Prevention Districts" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="Byte" />
+            <Field name="Police Districts" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="Byte" />
+            <Field name="Supervisor Districts" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="Byte" />
+            <Field name="Zip Codes" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="Int16" />
+            <Field name="Neighborhoods (old)" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="Byte" />
+            <Field description="TextToColumns: Parsed from qSpecies" name="species1" size="81" source="TextToColumns: Parsed from qSpecies" type="V_String" />
+            <Field description="TextToColumns: Parsed from qSpecies" name="species2" size="81" source="TextToColumns: Parsed from qSpecies" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="702" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="species1" selected="True" rename="species" />
+            <SelectField field="species2" selected="True" rename="common_name" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="822" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\shrey\AppData\Local\Temp\Engine_34680_dba6f32b948d405c869ba6eb436019ab_\Engine_29616_59b288de929341e4ba8d69bef2cfe6cd_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="498" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>species2</Field>
+          <RegExExpression value=":" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>species2</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>qLegalStatus_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="618" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="qLegalStatus" selected="True" />
+            <Field field="qSpecies" selected="True" />
+            <Field field="qAddress" selected="True" />
+            <Field field="qSiteInfo" selected="True" />
+            <Field field="PlantType" selected="True" />
+            <Field field="qCaretaker" selected="True" />
+            <Field field="qCareAssistant" selected="True" />
+            <Field field="PlantDate" selected="True" />
+            <Field field="PlotSize" selected="True" />
+            <Field field="PermitNotes" selected="True" />
+            <Field field="XCoord" selected="True" />
+            <Field field="YCoord" selected="True" />
+            <Field field="Latitude" selected="True" />
+            <Field field="Longitude" selected="True" />
+            <Field field="Location" selected="True" />
+            <Field field="species1" selected="True" />
+            <Field field="species2" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="TreeID" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="Int32" />
+            <Field name="qLegalStatus" size="31" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="qSpecies" size="81" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="qAddress" size="40" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="SiteOrder" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="Int16" />
+            <Field name="qSiteInfo" size="33" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="PlantType" size="11" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="qCaretaker" size="23" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="qCareAssistant" size="22" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="PlantDate" size="22" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="String" />
+            <Field name="DBH" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="Int16" />
+            <Field name="PlotSize" size="23" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="PermitNotes" size="150" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="XCoord" size="18" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="YCoord" size="18" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="V_String" />
+            <Field name="Latitude" size="18" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="String" />
+            <Field name="Longitude" size="19" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="String" />
+            <Field name="Location" size="41" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="String" />
+            <Field name="Fire Prevention Districts" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="Byte" />
+            <Field name="Police Districts" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="Byte" />
+            <Field name="Supervisor Districts" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="Byte" />
+            <Field name="Zip Codes" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="Int16" />
+            <Field name="Neighborhoods (old)" source="File: C:\Users\shrey\Downloads\Street_Tree_List.tsv" type="Byte" />
+            <Field description="TextToColumns: Parsed from qSpecies" name="species1" size="50" source="TextToColumns: Parsed from qSpecies" type="V_String" />
+            <Field description="TextToColumns: Parsed from qSpecies" name="species2" size="37" source="TextToColumns: Parsed from qSpecies" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="750" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="species1" selected="True" rename="species" />
+            <SelectField field="species2" selected="True" rename="common_name" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="870" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\shrey\AppData\Local\Temp\Engine_34680_dba6f32b948d405c869ba6eb436019ab_\Engine_29616_b8cee5da020e4dfbae2d67bb18df414a_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>sf_treedemo</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="8297e7e6-0392-4fb3-b34e-1a4e6e230be5" />
+      <Telemetry>
+        <PreviousWorkflowId value="33f887d5-6360-48ae-8e65-7b5af518c6a2" />
+        <OriginWorkflowId value="33f887d5-6360-48ae-8e65-7b5af518c6a2" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
